@@ -43,3 +43,25 @@ The models were evaluated on a test set, and the hybrid model achieved the best 
 - VGG19 Accuracy: 54%
 - ResNet50 Accuracy: 52%
 - Hybrid Model Accuracy: 68%
+
+## Installation
+
+Install my-project with npm
+1. Clone the repository
+```bash
+  git clone https://github.com/abhinavbura/leaf-disease-prediction.git
+```
+2. Navigate to the project directory:
+```bash
+  cd leaf-disease-prediction
+```
+3. Create and activate a virtual environment:
+```bash
+  python -m venv venv
+source venv/bin/activate # On Windows use `venv\Scripts\activate`
+```
+4. Install the required dependencies:
+```bash
+  pip install -r requirements.txt
+```
+5. Open Jupyter Notebook and run the cells.
